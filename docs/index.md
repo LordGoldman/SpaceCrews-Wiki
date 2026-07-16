@@ -2,7 +2,7 @@
 
 **Social deduction for Minecraft.** Crewmates complete tasks; impostors kill, sabotage,
 and vent. Meetings, voting, ejections, special roles, Hide n Seek — the full loop, on
-your own maps, for Spigot/Paper **1.16 → latest**.
+your own maps, for Spigot/Paper **1.16 → 26.2**.
 
 ## Highlights
 
