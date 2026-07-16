@@ -1,7 +1,6 @@
 site_name: SpaceCrews
 site_description: Social-deduction (Among Us-style) minigame for Spigot/Paper 1.16+
 site_url: https://lordgoldman.github.io/SpaceCrews-Wiki/
-repo_url: https://github.com/LordGoldman/SpaceCrews-Wiki
 
 theme:
   name: material
