@@ -1,0 +1,69 @@
+site_name: SpaceCrews
+site_description: Social-deduction (Among Us-style) minigame for Spigot/Paper 1.16+
+site_url: https://lordgoldman.github.io/SpaceCrews-Wiki/
+repo_url: https://github.com/LordGoldman/SpaceCrews-Wiki
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - Installation: installation.md
+      - Quickstart: quickstart.md
+  - Arena setup:
+      - Arenas & the setup wizard: setup/arenas.md
+      - Task stations: setup/tasks.md
+      - Sabotage & doors: setup/sabotage-doors.md
+      - Info systems: setup/info-systems.md
+      - Map toolkit: setup/map-toolkit.md
+      - Crew-color skins: setup/skins.md
+  - Gameplay:
+      - The game loop: gameplay/game-loop.md
+      - Special roles: gameplay/roles.md
+      - Hide n Seek: gameplay/hide-and-seek.md
+      - Parties & settings: gameplay/parties-settings.md
+      - Stats, XP & levels: gameplay/stats-xp.md
+  - Network mode: network.md
+  - Reference:
+      - Task library: reference/tasks.md
+      - config.yml: reference/config.md
+      - Commands & permissions: reference/permissions-commands.md
+      - PlaceholderAPI: reference/placeholders.md
+  - Developer API: api.md
+  - FAQ: faq.md
