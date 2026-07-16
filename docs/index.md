@@ -1,4 +1,4 @@
-# SpaceCrews
+![SpaceCrews — social deduction for Minecraft](assets/banner.jpg)
 
 **Social deduction for Minecraft.** Crewmates complete tasks; impostors kill, sabotage,
 and vent. Meetings, voting, ejections, special roles, Hide n Seek — the full loop, on

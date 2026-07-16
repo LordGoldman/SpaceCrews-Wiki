@@ -6,6 +6,8 @@ repo_url: https://github.com/LordGoldman/SpaceCrews-Wiki
 theme:
   name: material
   language: en
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
