@@ -10,6 +10,8 @@ SpaceCrewsAPI api = Bukkit.getServicesManager().load(SpaceCrewsAPI.class);
 
 All methods are main-thread unless noted.
 
+See here for the repo: https://github.com/LordGoldman/SpaceCrews-API
+
 ## Games & players
 
 ```java
