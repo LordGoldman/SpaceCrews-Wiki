@@ -1,19 +1,30 @@
 # SpaceCrews wiki (MkDocs Material)
 
-This folder is a self-contained docs site. To publish it free on GitHub Pages:
+Published at **https://lordgoldman.github.io/SpaceCrews-Wiki/** from
+https://github.com/LordGoldman/SpaceCrews-Wiki — this folder IS the repo clone.
 
-1. Create a **public** repo (e.g. `spacecrews-docs`) and push THIS FOLDER'S CONTENTS
-   as the repo root (mkdocs.yml at top level).
-2. In the repo: Settings → Pages → Source: **GitHub Actions**.
-3. Push to `main` — the included workflow builds and deploys automatically.
-4. Set `site_url` in `mkdocs.yml` to your real URL (and optionally a custom domain
-   under Settings → Pages).
+No Jekyll anywhere: the site is built by **MkDocs Material** through the GitHub
+Actions workflow in `.github/workflows/deploy.yml`. GitHub Pages must be set to
+**Settings → Pages → Source: GitHub Actions** (NOT "Deploy from a branch", which
+would run Jekyll on the raw markdown).
 
-Preview locally:
+## Editing
+
+Edit the markdown in `docs/`, then:
+
+```
+git add -A
+git commit -m "docs: ..."
+git push
+```
+
+The workflow rebuilds and deploys automatically on every push to `main`.
+
+## Preview locally
 
 ```
 pip install -r requirements.txt
-mkdocs serve
+python -m mkdocs serve
 ```
 
-then open http://127.0.0.1:8000 — live-reloads as you edit the markdown in `docs/`.
+then open http://127.0.0.1:8000 — live-reloads as you edit.
