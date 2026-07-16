@@ -52,4 +52,4 @@ are not supported (packet listeners and world clones don't survive them).
 
 ## Where do I report bugs / ask for help?
 
-Use the support link on the resource page you bought SpaceCrews from.
+You can join the discord server where you can contact me directly: https://discord.gg/geWNKWA9VJ
