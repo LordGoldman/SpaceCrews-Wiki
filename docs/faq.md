@@ -45,6 +45,18 @@ there's just no body to report, so crews rely on vitals and absence.
 Yes — every game clones the template world into its own instance and deletes it
 afterwards. Never build in `spacecrews_*` worlds; they're disposable clones.
 
+## Players can't open chests / doors / beds on my map
+
+By design — inside a game **every vanilla block and entity interaction is locked**
+(chests, furnaces, levers, beds, shulkers, doors, armor stands, item frames,
+pressure plates…). Only SpaceCrews stations react to clicks, so decorated maps are
+grief-proof and clicks never have side effects. Build consequences:
+
+- use **open archways** for passage (or [door groups](setup/sabotage-doors.md#doors)
+  for closable ones) — wooden doors won't open for players,
+- decorate freely: containers, frames, and stands are safe from players,
+- task stations placed ON levers/buttons won't toggle them — only the minigame opens.
+
 ## Reload safety
 
 `/sc reload` re-reads arenas. For plugin updates, restart the server — jar hot-swaps
