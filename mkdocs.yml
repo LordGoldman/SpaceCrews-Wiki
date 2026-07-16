@@ -22,8 +22,10 @@ theme:
         icon: material/weather-night
         name: Dark mode
   features:
-    - navigation.tabs
+    # No navigation.tabs: the FULL page tree lives in the left sidebar,
+    # grouped under section headers (the "all pages" view).
     - navigation.sections
+    - navigation.expand
     - navigation.top
     - navigation.footer
     - search.suggest
