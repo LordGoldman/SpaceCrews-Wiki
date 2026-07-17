@@ -58,5 +58,5 @@ debug:
 | `arenas/<id>.yml` | one per arena — built by the setup commands; `example.yml` documents every section |
 | `skins.yml` | crew colors + textures ([guide](../setup/skins.md)) |
 | `languages/messages_en.yml` | the full message catalog — rebrand or translate freely |
-| `languages/messages_<iso>.yml` | add any file (e.g. `messages_fr.yml`) and it becomes a selectable language: players switch with `/sc lang`, picks persist, missing keys fall back to English. `default-language` sets the server-wide default |
+| `languages/messages_<iso>.yml` | additional languages, player-switchable with `/sc lang` — see [Languages & translations](languages.md) |
 | `stats.db` | SQLite stats (when `storage.type: sqlite`) |

@@ -24,6 +24,8 @@ your own maps, for Spigot/Paper **1.16 → 26.2**.
 - **Stats, XP & levels** — SQLite or shared MySQL, PlaceholderAPI support.
 - **Network mode** — lobby + game servers over Redis: cross-server browser,
   reservations, rejoin grace, autoscaling.
+- **Per-player languages** — drop a `messages_<iso>.yml`, players switch with
+  `/sc lang`; picks persist across sessions and servers.
 - **Developer API** — clean api jar, events (incl. cancellable pre-events), custom
   task minigames.
 

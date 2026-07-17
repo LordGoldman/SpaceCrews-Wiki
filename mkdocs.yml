@@ -68,6 +68,7 @@ nav:
       - Task library: reference/tasks.md
       - config.yml: reference/config.md
       - Commands & permissions: reference/permissions-commands.md
+      - Languages & translations: reference/languages.md
       - PlaceholderAPI: reference/placeholders.md
   - Developer API: api.md
   - FAQ: faq.md
