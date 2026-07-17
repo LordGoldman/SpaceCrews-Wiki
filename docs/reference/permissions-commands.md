@@ -19,6 +19,7 @@
 | `/sc tasks` | in-game: your task list (ghosts: clickable) — outside: the task browser |
 | `/sc stats [player]` | stats profile GUI |
 | `/sc party invite/accept/deny/leave/disband/info` | parties |
+| `/sc lang [iso]` | list languages (clickable) / switch yours — persisted |
 | `/sc hub` | go to the main lobby |
 | `/sc protect [player]` | Guardian Angel shield (dead GA only) |
 | `/sc sabotage` | sabotage panel (impostor ghosts) |
